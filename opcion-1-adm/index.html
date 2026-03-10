@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo Automat – Opción 1 (ADM)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo"><img src="../Logos/Logo Grupo Automat.png" alt="Grupo Automat"></a>
+      <button type="button" class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav" id="nav-menu">
+        <a href="#">Home</a>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#empresas">Empresas del Grupo</a>
+        <a href="#capacidad">Capacidad de Integración</a>
+        <a href="#contacto" class="btn-cta">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero: video fijo + slogan (la sección siguiente pasa por encima al scroll) -->
+    <section class="hero hero--video" aria-label="Hero">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="../Fluviomat/Videos/CT BARRAGAN-ENSENADA (1).mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay">
+        <p class="hero-slogan">Más de 50 años construyendo<br>infraestructura y confianza.</p>
+      </div>
+    </section>
+    <div class="hero-spacer" aria-hidden="true"></div>
+
+    <!-- Quiénes somos: dos columnas + línea de acento + cifras -->
+    <section id="quienes-somos" class="section-about">
+      <div class="panel panel-left">
+        <p class="panel-label reveal">Quiénes somos</p>
+        <p class="reveal reveal-delay-1">Grupo Automat es un conjunto de empresas con trayectoria en saneamiento, obras hidráulicas, construcción e industria. Cada unidad mantiene su identidad técnica y comercial; juntas reflejan capacidad de integración y solidez estructural.</p>
+        <div class="sub-nav reveal reveal-delay-2">
+          <a href="#quienes-somos">Quiénes somos</a>
+          <a href="#empresas">Empresas del Grupo</a>
+          <a href="#capacidad">Capacidad de Integración</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="panel-photo reveal reveal-delay-3">
+          <img src="../Fluviomat/Imagenes/CENTRAL DE VUELTA OBLIGADO (2).jpg" alt="Obra del Grupo Automat">
+        </div>
+      </div>
+      <div class="accent-line" aria-hidden="true"></div>
+      <div class="panel panel-right">
+        <p class="panel-label reveal">Cifras</p>
+        <div class="stats-vertical reveal">
+          <div class="stat">
+            <span class="stat-num">50+</span>
+            <span class="stat-txt">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">08</span>
+            <span class="stat-txt">Oficinas y bases en el país</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3M</span>
+            <span class="stat-txt">m² en proyectos completados</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Empresas del Grupo: las 4 unidades con identidad propia -->
+    <section id="empresas">
+      <div class="section-head">
+        <p class="section-label reveal">Empresas del Grupo</p>
+        <h2 class="reveal reveal-delay-1">Unidades con identidad técnica y comercial propia</h2>
+      </div>
+
+      <div class="empresas-grid">
+        <article class="empresa-card reveal">
+          <div class="empresa-img" style="background-image: url('../Fluviomat/Imagenes/CENTRAL DE VUELTA OBLIGADO (1).jpg')"></div>
+          <div class="empresa-content">
+            <img src="../Logos/Logo Automat Saneamiento.png" alt="Automat Saneamiento" class="empresa-logo">
+            <h3>Automat Saneamiento</h3>
+            <p>Especialidad en saneamiento y obras hidráulicas.</p>
+            <a href="#" class="empresa-link">Conocer más</a>
+          </div>
+        </article>
+        <article class="empresa-card reveal">
+          <div class="empresa-img" style="background-image: url('../Fluviomat/Imagenes/CT BARRAGAN-ENSENADA  (1).jpeg')"></div>
+          <div class="empresa-content">
+            <img src="../Logos/Logo Fluviomat.png" alt="Fluviomat" class="empresa-logo">
+            <h3>Fluviomat</h3>
+            <p>Saneamiento, hidráulica y tratamiento de efluentes.</p>
+            <a href="#" class="empresa-link">Conocer más</a>
+          </div>
+        </article>
+        <article class="empresa-card reveal">
+          <div class="empresa-img" style="background-image: url('../OC/75c911fe-5eed-4cc7-a307-0ec5c93a462d.JPG')"></div>
+          <div class="empresa-content">
+            <img src="../Logos/Logo OCME.png" alt="OCME" class="empresa-logo">
+            <h3>OCME</h3>
+            <p>Soluciones industriales y equipamiento.</p>
+            <a href="#" class="empresa-link">Conocer más</a>
+          </div>
+        </article>
+        <article class="empresa-card reveal">
+          <div class="empresa-img" style="background-image: url('../Fluviomat/Imagenes/BAGLEY (1).jpeg')"></div>
+          <div class="empresa-content">
+            <img src="../Logos/Logo Construmat.png" alt="Construmat" class="empresa-logo">
+            <h3>Construmat</h3>
+            <p>Construcción y obras civiles.</p>
+            <a href="#" class="empresa-link">Conocer más</a>
+          </div>
+        </article>
+        <article class="empresa-card reveal empresa-card--link">
+          <div class="empresa-img empresa-img--placeholder"></div>
+          <div class="empresa-content">
+            <span class="empresa-logo-text">Indumat</span>
+            <h3>Indumat</h3>
+            <p>Soluciones industriales integrales. Limpieza técnica, mantenimiento y automatización 4.0.</p>
+            <a href="https://indumat.lat/" class="empresa-link" target="_blank" rel="noopener">Visitar sitio</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Capacidad de Integración: el grupo como paraguas -->
+    <section id="capacidad" class="section-equip">
+      <div class="container">
+        <p class="section-label reveal">Capacidad de Integración</p>
+        <h2 class="section-title reveal reveal-delay-1">Un ecosistema corporativo coherente</h2>
+        <p class="section-intro reveal">Las empresas del Grupo comparten sistema visual, trayectoria y capacidad de sumar recursos. Cada una se posiciona en su especialidad sin superposición; juntas transmiten orden, solidez y profesionalismo industrial.</p>
+        <div class="equip-grid">
+          <article class="equip-card reveal">
+            <img src="../Fluviomat/Imagenes/CENTRAL DE VUELTA OBLIGADO (1).jpg" alt="Obra infraestructura">
+            <div class="content"><h3>Infraestructura hídrica</h3><p>Proyectos de escala regional.</p></div>
+          </article>
+          <article class="equip-card reveal">
+            <img src="../Fluviomat/Imagenes/CT BARRAGAN-ENSENADA  (1).jpeg" alt="Planta tratamiento">
+            <div class="content"><h3>Plantas de tratamiento</h3><p>Saneamiento y efluentes.</p></div>
+          </article>
+          <article class="equip-card reveal">
+            <img src="../OC/75c911fe-5eed-4cc7-a307-0ec5c93a462d.JPG" alt="Equipamiento industrial">
+            <div class="content"><h3>Equipamiento y flota</h3><p>Capacidad operativa real.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="cta-section">
+      <video class="cta-section-video" autoplay muted loop playsinline aria-hidden="true">
+        <source src="../Fluviomat/Videos/arroyo-contact.mp4" type="video/mp4">
+        <source src="../Fluviomat/Videos/arroyo-contact.mp4" type="video/mp4">
+      </video>
+      <div class="cta-section-overlay"></div>
+      <div class="container cta-section-content">
+        <h2 class="reveal">Contacte con el Grupo Automat</h2>
+        <p class="reveal reveal-delay-1">Consultas institucionales y derivación a cada empresa.</p>
+        <a href="mailto:contacto@grupoautomat.com.ar" class="btn reveal reveal-delay-2">Enviar consulta</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer-nav" aria-label="Enlaces del sitio">
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#empresas">Empresas del Grupo</a>
+        <a href="#capacidad">Capacidad de Integración</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="#" class="footer-logo"><img src="../Logos/Logo Grupo Automat.png" alt="Grupo Automat"></a>
+      <div class="footer-contact">Lun a Vie 8:00 a 17:00<br>contacto@grupoautomat.com.ar</div>
+    </div>
+    <div class="container footer-bottom">&copy; Grupo Automat. Todos los derechos reservados.</div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/5491112345678" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>

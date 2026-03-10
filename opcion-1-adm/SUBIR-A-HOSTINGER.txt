@@ -1,0 +1,31 @@
+Estructura para que la sección de contacto se vea igual que en local
+======================================================================
+
+El video de fondo de la sección Contacto (ARROYO CILDAÑEZ) da 404 online.
+Revisá que en tu public_html tengas UNA de estas estructuras:
+
+OPCIÓN A (recomendada) – Fluviomat al mismo nivel que opcion-1-adm:
+  public_html/
+    opcion-1-adm/     ← index.html, styles.css, main.js
+    Fluviomat/
+      Videos/
+        ARROYO CILDAÑEZ (1).mp4   ← nombre exacto, con Ñ
+    Logos/
+    css/
+      base.css
+
+OPCIÓN B – Fluviomat dentro de opcion-1-adm:
+  public_html/
+    opcion-1-adm/
+      index.html, styles.css, main.js
+      Fluviomat/
+        Videos/
+          ARROYO CILDAÑEZ (1).mp4
+
+En el index hay dos <source> del video; el navegador prueba la primera
+y si falla la segunda. Si el archivo no está en ninguna de esas rutas,
+la sección se verá con fondo blanco (sin video).
+
+Si el servidor no acepta la Ñ en el nombre, renombrá el archivo a
+ARROYO CILDAÑEZ (1).mp4 sin cambiar el nombre en el HTML, o avisá
+para actualizar la ruta en el código.
