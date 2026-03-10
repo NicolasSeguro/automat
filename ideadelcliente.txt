@@ -1,0 +1,100 @@
+📩 RESUMEN EJECUTIVO – VERSIÓN FINAL DESEADA
+Ecosistema Web – Grupo Automat Argentina
+
+1️⃣ OBJETIVO GENERAL
+Desarrollar un ecosistema web corporativo compuesto por:
+1 sitio institucional del Grupo Automat
+4 sitios individuales:
+Automat Saneamiento
+Fluviomat
+OCME
+Construmat
+Indumat solo se enlaza (no rediseñar)
+El objetivo no es hacer cinco webs independientes, sino construir un sistema corporativo unificado, donde:
+El Grupo actúe como paraguas institucional.
+Cada empresa mantenga identidad técnica y comercial propia.
+Se perciba orden, trayectoria y solidez estructural.
+
+2️⃣ ENFOQUE ESTRATÉGICO
+Grupo Automat
+Rol institucional, estratégico e histórico.
+No operativo.
+Debe comunicar:
+Trayectoria (más de 50 años).
+Evolución empresarial.
+Capacidad de integración entre unidades.
+Empresas
+Rol técnico y operativo.
+Cada una posicionada en su especialidad.
+SEO vertical diferenciado.
+Sin superposición de rubros.
+
+3️⃣ ARQUITECTURA DEL ECOSISTEMA
+Grupo Automat
+Home
+Quiénes Somos
+Empresas del Grupo
+Capacidad de Integración
+Contacto
+Cada empresa
+Home
+Quiénes Somos
+Servicios
+Equipamiento y Flota
+Contacto
+
+4️⃣ DISEÑO – PRINCIPIOS NO NEGOCIABLES
+Sistema visual unificado
+Todas las webs deben compartir:
+Misma tipografía (Montserrat)
+Misma escala tipográfica
+Mismo sistema de grillas
+Mismo estilo de botones
+Mismo espaciado
+Mismo tratamiento de cards
+Mismo diseño de footer
+Misma estructura de navegación
+5️⃣ IDENTIDAD CROMÁTICA
+Cada empresa mantiene su identidad de color:
+Grupo Automat → Rojo sobrio
+Automat Saneamiento → Rojo fuerte
+Fluviomat → Celeste
+OCME → Gris (con posible acento amarillo industrial)
+Construmat → Naranja
+Los colores solo afectan:
+Botones
+Elementos de acento
+Íconos
+Detalles gráficos
+No deben alterar tipografía ni estructura.
+
+6️⃣ SISTEMA DE LOGOS
+Logos alineados a la izquierda en todas las webs.
+Mantener proporciones originales.
+Versiones monocromáticas blancas para fondos oscuros.
+7️⃣ SECCIÓN CLAVE – EQUIPAMIENTO
+Cada empresa debe incluir sección “Equipamiento y Flota” con:
+Galería visual profesional
+Fichas técnicas claras
+Especificaciones organizadas
+Sensación de escala operativa real
+
+8️⃣ DISEÑO GENERAL
+Estilo Parallax moderno.
+Fondos claros y luminosos.
+Sensación de estabilidad + dinamismo.
+Uso fuerte de fotografía real.
+Microanimaciones sobrias.
+Experiencia limpia, técnica y corporativa.
+
+9️⃣ LO QUE DEBE TRANSMITIR
+Orden institucional.
+Trayectoria consolidada.
+Especialización técnica real.
+Capacidad de integración sin que el grupo opaque a las unidades.
+Profesionalismo industrial, no marketing vacío.
+
+🔟 PRINCIPIO RECTOR
+No son cinco sitios aislados.
+Es un ecosistema corporativo coherente, con identidad común y diferenciación controlada.
+
